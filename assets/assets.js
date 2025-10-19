@@ -10,12 +10,21 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import postgres from './postgres.png';
+import nextJs from './nextJs.png';
+import go from './go.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
+import logo1 from './logo-1.png';
+import my_logo from './my-logo.png';
+import logo_dark1 from './logo_dark-1.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
+import devops from './devops.png';
+import api from './api.png'
 import profile_img from './profile-img.png';
+import my_profile from './my-profile.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -34,7 +43,9 @@ import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
+import frontend from './frontend.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+
 
 export const assets = {
     user_image,
@@ -49,12 +60,21 @@ export const assets = {
     figma,
     git,
     mongodb,
+    nextJs,
+    postgres,
+    go,
+    api,
+    devops,
     right_arrow_white,
     logo,
+    logo1,
     logo_dark,
+    logo_dark1,
+    my_logo,
     mail_icon,
     mail_icon_dark,
     profile_img,
+    my_profile,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -73,7 +93,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    frontend,
 };
 
 export const workData = [
@@ -100,18 +121,20 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.go, title: 'Go Backend Development', description: 'Building secure and scalable backend systems, APIs, and services with Go.', link: 'https://github.com/WllowyEmmie/Blog' },
+    { icon: assets.frontend, title: 'Frontend Development', description: 'Creating responsive and interactive web interfaces with modern tools and frameworks.', link: 'https://github.com/WllowyEmmie/portfolio' },
+    { icon: assets.api, title: 'API Integration & Testing', description: 'Implementing reliable API connections with proper testing and authentication flows.', link: 'https://github.com/WllowyEmmie/Todo-Rest-Api' },
+    { icon: assets.devops, title: 'DevOps & Deployment', description: 'Deploying and managing applications with smooth and production-ready configurations.', link: 'https://github.com/WllowyEmmie/We_chat' },
+
+
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Golang, Rust' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Eng (in view) - Metallurgical and Materials Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.nextJs, assets.postgres, assets.git, assets.go
 ];
