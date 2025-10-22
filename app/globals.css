@@ -10,6 +10,13 @@
 
   --shadow-light: 4px 4px 0 #000;
   --shadow-dark: 4px 4px 0 #fff;
+
+
+}
+@layer utilities{
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200, 1fr));
+  }
 }
 
 html,

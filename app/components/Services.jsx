@@ -8,7 +8,7 @@ const Services = () => {
             <h4 className='text-center mb-2 text-lg font-ovo'>What I offer</h4>
             <h2 className='text-center text-5xl font-ovo'>My Services</h2>
 
-            <div className='grid grid-cols-4 gap-6 my-10'>
+            <div className='grid grid-cols-auto gap-6 my-10 sm:'>
                 {serviceData.map(({ icon, title, description, link }, index) => (
                     <div key={index} className='border border-gray-400 rounded-lg px-8 py-12  hover:bg-[var(--color-light-hover)] hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-light)] cursor-pointer'>
                         <Image src={icon} alt='' className='w-10' />
