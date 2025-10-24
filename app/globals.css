@@ -13,7 +13,8 @@
 
 
 }
-@layer utilities{
+
+@layer utilities {
   .grid-cols-auto {
     grid-template-columns: repeat(auto-fit, minmax(200, 1fr));
   }
