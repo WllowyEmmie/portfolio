@@ -132,7 +132,7 @@ export const serviceData = [
     { icon: assets.frontend, title: 'Frontend Development', description: 'Creating responsive and interactive web interfaces with modern tools and frameworks.', link: 'https://github.com/WllowyEmmie/portfolio' },
     { icon: assets.api, title: 'API Integration & Testing', description: 'Implementing reliable API connections with proper testing and authentication flows.', link: 'https://github.com/WllowyEmmie/Todo-Rest-Api' },
     { icon: assets.devops, title: 'DevOps & Deployment', description: 'Deploying and managing applications with smooth and production-ready configurations.', link: 'https://github.com/WllowyEmmie/We_chat' },
-    { icon: assets.devops, title: 'AI Tool Development', description: 'Created a smart movie recommendation engine that analyzes user favorites to deliver accurate, personalized suggestions.', link: 'https://github.com/WllowyEmmie/movie' },
+    { icon: assets.ollama_icon, title: 'AI Tool Development', description: 'Created a smart movie recommendation engine that analyzes user favorites to deliver accurate, personalized suggestions.', link: 'https://github.com/WllowyEmmie/movie' },
 
 ]
 
