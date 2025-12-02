@@ -37,6 +37,7 @@ import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
+import ollama_icon from './ollama.png';
 import mobile_icon from './mobile-icon.png';
 import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
@@ -95,6 +96,7 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     frontend,
+    ollama_icon
 };
 
 export const workData = [
@@ -118,6 +120,11 @@ export const workData = [
         description: '2D snake game',
         bgImage: '/rust-work.png',
     },
+    {
+        title: 'AI Tool Development',
+        description: 'Movie Reccomendation',
+        bgImage: '/Ai_work.png',
+    },
 ]
 
 export const serviceData = [
@@ -125,7 +132,7 @@ export const serviceData = [
     { icon: assets.frontend, title: 'Frontend Development', description: 'Creating responsive and interactive web interfaces with modern tools and frameworks.', link: 'https://github.com/WllowyEmmie/portfolio' },
     { icon: assets.api, title: 'API Integration & Testing', description: 'Implementing reliable API connections with proper testing and authentication flows.', link: 'https://github.com/WllowyEmmie/Todo-Rest-Api' },
     { icon: assets.devops, title: 'DevOps & Deployment', description: 'Deploying and managing applications with smooth and production-ready configurations.', link: 'https://github.com/WllowyEmmie/We_chat' },
-
+    { icon: assets.devops, title: 'AI Tool Development', description: 'Created a smart movie recommendation engine that analyzes user favorites to deliver accurate, personalized suggestions.', link: 'https://github.com/WllowyEmmie/movie' },
 
 ]
 
